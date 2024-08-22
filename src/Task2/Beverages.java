@@ -19,6 +19,9 @@ public abstract class Beverages {
     }
 
     public void finalTemplateMethod(){
+        // All the methods are declared inorder to
+        // provide the availability of each method
+        // As a parent of these all methods
         boilWater();
         brew();
         pourInCup();

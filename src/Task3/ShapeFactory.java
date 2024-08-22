@@ -4,6 +4,7 @@ import java.util.IllegalFormatException;
 
 public class ShapeFactory {
     public Shape getShape(String type){
+        // According to the request objects get created
         if (type.equalsIgnoreCase("square")){
             return new Square();
         }else if (type.equalsIgnoreCase("circle")){
